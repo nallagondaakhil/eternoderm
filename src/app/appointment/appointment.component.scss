@@ -1,0 +1,23 @@
+.appointment{
+    background: linear-gradient(#ccccccd4, #cccccc78),url('http://imgcdn1.blush.me/uploads/2017/01/iStock-501398614.jpg?auto=compress,format');
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.appointment p{
+    font-size: 20px;
+    color: lightslategray;
+    line-height: 3;
+}
+
+.appointment button{
+    background-color: #036f9e;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 45px;
+    font-size: 12px;
+}
+.appointment img{
+    height: 200px;
+}

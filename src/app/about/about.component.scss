@@ -1,0 +1,75 @@
+.service-box p{
+    color: white;
+    background-color: #036f9e;
+    width: 87%;
+    font-size: 17px;
+    padding: 20px;
+    height: 80px;
+    
+}
+.para p{
+        color: lightslategray;
+        text-align: start;
+        line-height: 1.5;
+}
+h2{
+    color: #f75712;
+    font-family: 'Niconne', cursive;
+    text-align: start;
+}
+
+h1{
+    text-align: start;
+    font-weight: 600;
+}
+img{
+    height: 500px;
+}
+
+
+span{
+    color: #036f9e;
+}
+.content h4{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: start;
+    margin-top: 20px;
+}
+
+.content p{
+    text-align: justify;
+    color: lightslategray;
+    width: 96%;
+}
+
+.about button{
+    background-color: #f75712;
+    color: white;
+    border: none;
+    width: 139px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 12px;
+
+}
+.choose button{
+    background-color: #036f9e;
+    color: white;
+    border: none;
+    width: 139px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 12px;
+
+}
+
+@media (max-width: 1262px){
+    .service-box p{
+        color: white;
+        background-color: #036f9e;
+        padding: 0px;
+        height: auto;
+        width: auto;
+    }
+}
