@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { TypesComponent } from './types/types.component';
@@ -16,11 +15,11 @@ import { FactsComponent } from './facts/facts.component';
 import { NewsComponent } from './news/news.component';
 import { ContactComponent } from './contact/contact.component';
 import { AppointmentComponent } from './appointment/appointment.component';
+import { ServiceconComponent } from './servicecon/servicecon.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
     HeaderComponent,
     FooterComponent,
     TypesComponent,
@@ -32,7 +31,8 @@ import { AppointmentComponent } from './appointment/appointment.component';
     FactsComponent,
     NewsComponent,
     ContactComponent,
-    AppointmentComponent
+    AppointmentComponent,
+    ServiceconComponent,
   ],
   imports: [
     BrowserModule,

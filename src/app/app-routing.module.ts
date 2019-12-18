@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { TypesComponent } from './types/types.component';
@@ -13,23 +12,24 @@ import { FactsComponent } from './facts/facts.component';
 import { NewsComponent } from './news/news.component';
 import { ContactComponent } from './contact/contact.component';
 import { AppointmentComponent } from './appointment/appointment.component';
+import { ServiceconComponent } from './servicecon/servicecon.component';
 
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'home', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
+  { path: '', component: HeaderComponent },
   { path: 'header', component: HeaderComponent },
+  { path: 'about', component: AboutComponent },
   { path: 'footer', component: FooterComponent },
   { path: 'types', component: TypesComponent },
   { path: 'services', component: ServicesComponent },
   { path: 'count', component: CountComponent },
   { path: 'facts', component: FactsComponent },
   { path: 'reviews', component: ReviewsComponent },
-  { path: 'derma', component: DermatologistComponent },
+  { path: 'dermatologist', component: DermatologistComponent },
   { path: 'news', component: NewsComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'apoointment', component: AppointmentComponent },
+  { path: 'appointment', component: AppointmentComponent },
+  { path: 'servicecon', component: ServiceconComponent },
 ];
 
 @NgModule({

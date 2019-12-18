@@ -8,14 +8,10 @@
     // height: 400px;
 }
 .service-box:hover{
-    box-shadow: 6px -3px 18px 0px rgba(0, 0, 0, 0.21)
+    box-shadow: 6px -3px 18px 0px rgba(0, 0, 0, 0.21);
+    transform: translateY(-4px);
 }
-p{
-    color: lightslategray;
-    text-align: justify;
-    padding: 10px;
-    line-height: 2;
-}
+
 h4{
     color: #f75712;
     padding: 10px;
